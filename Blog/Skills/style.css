@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ /* The header part */
+
+#title-header{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    margin: 10px auto;
+}
+
+span{
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(0);
+}
+span.fade{
+    opacity: 1;
+    transform: translateY(50);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    background: black;
+    overflow: auto;
+    padding: 20px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav ul li #active-skills,a:hover{
+    opacity: 1;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+/* Part of the tags skills*/
+#tags-skills{
+    font-family: cursive;
+}
+#tags-skills p {
+    display: inline-block;
+    padding: 2px;
+}
+
+/* part of content of skills under tags skills*/
+#skills-title{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px auto;
+    color: rgb(39, 38, 38);
+}
+#skills-text{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    background: rgb(180, 175, 175);
+    border-radius: 20px;
+    padding: 15px;
+    margin: -20px auto ;
+}
+
+/* part of animation under skills text*/
+#animations-title{
+    margin: 100px auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+}
+
+/* part of animation under skills text*/
+#animations-title{
+    margin: 100px auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+}
+
+/* part of date under skills animations*/
+#date-title{
+    margin: 100px auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+}
+
+/* part of data-time under skills date*/
+#dateT-title{
+    margin: 100px auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+}
+
+/* part of math under skills date-time*/
+#math-title{
+    margin: 100px auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+}
+
+/* part of time under skills math */
+#time-title{
+    margin: 100px auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+}

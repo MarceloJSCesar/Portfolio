@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ /* The header part */
+
+#title-header{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    margin: 10px auto;
+}
+
+span{
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(0);
+}
+span.fade{
+    opacity: 1;
+    transform: translateY(50);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    background: black;
+    overflow: auto;
+    padding: 20px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav ul li #active-skills,a:hover{
+    opacity: 1;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+/* the part of advice under nav-bar */
+#title-advice{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+#second-title-advice{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 50px;
+    color: gray;
+}
+#advice-text {
+    background: gray;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+#advice-border{
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 5pt;
+}
+
+/* the part of advice one under nav-bar */
+
+#three-title-advice{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 50px;
+    color: gray;
+}
+#advice-text-two {
+    background: gray;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+#advice-border{
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 5pt;
+}

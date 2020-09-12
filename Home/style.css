@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#backg{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 0 0 40px 40px;
+}
+
+/* Part header*/
+.headers{
+    font-family: sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: -0px;
+    color: white;
+}
+
+#nameH{
+    margin: 10px 5px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 10px 70px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+nav ul li #active_home,a:hover{
+    opacity: 1;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+span{
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(0);
+}
+span.fade{
+    opacity: 1;
+    transform: translateY(50);
+    color: rgb(77, 73, 73);
+}
+
+
+/* About Container under header*/
+#about-title{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+    margin:30px;
+}
+#about-photo{
+    width: 32%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
+    margin: 10px;
+    height: 180px;
+}
+#about-text{
+    float: right;
+    margin: 10px 30px 0 0 ;
+}
+
+/* Experience container under about */
+#experience-title{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    margin: 50px auto;
+}
+#level-html{
+    background: black;
+    border-top: 5px solid black;
+    border-radius: 20px;
+    width: 53%;
+    margin: -13px 45px;
+}
+#percent-html{
+    float: right;
+}
+
+
+#level-css{
+    background: black;
+    border-top: 5px solid black;
+    border-radius: 20px;
+    width: 42%;
+    margin: -13px 45px;
+}
+#percent-css{
+    float: right;
+}
+
+
+#level-js{
+    background: black;
+    border-top: 5px solid black;
+    border-radius: 20px;
+    width: 23%;
+    margin: -13px 45px;
+}
+#percent-js{
+    float: right;
+}
+
+#experience-note{
+    font-family: sans-serif;
+    font-size: 12px;
+    text-transform: none;
+    background: gray;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5px;
+}
+
+/* language container under experience */
+#language-title{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    margin: 50px auto;
+}
+#level-cr{
+    background: black;
+    border-top: 5px solid black;
+    border-radius: 20px;
+    width: 79%;
+    margin: -12px 49px;
+}
+#percent-cr{
+    float: right;
+}
+
+
+#level-pt{
+    background: black;
+    border-top: 5px solid black;
+    border-radius: 20px;
+    width: 70%;
+    margin: -12px 72px;
+}
+#percent-pt{
+    float: right;
+}
+
+
+#level-en{
+    background: black;
+    border-top: 5px solid black;
+    border-radius: 20px;
+    width: 60%;
+    margin: -12px 49px;
+}
+#percent-en{
+    float: right;
+}
+
+/* Part of my plan container under languages*/
+#myPlan-title{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    margin:50px;
+}
+#myPlan-text{
+    font-family: sans-serif;
+    font-size: 17px;
+    background: gray;
+    border-radius: 20px;
+    padding: 15px;
+}
+#myPlan-text-two{
+    font-family: sans-serif;
+    font-size: 17px;
+    margin: auto 130px;
+}
+#myPlan-note{
+    font-family: sans-serif;
+    font-size: 17px;
+    background: gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* Contact Container under my plan */
+#contact-title{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+    margin: 100px 30px;
+}
+#contact-title-text{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    margin: auto;
+}
+#contact-photo{
+    width: 100%;
+    margin: 50px auto;
+}
+#contact-data{
+    font-family: sans-serif;
+    font-size: 17px;
+    background: gray;
+    overflow: auto;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+@media only screen and (max-width: 375px){
+    #level-cr{
+        background: black;
+        border-top: 5px solid black;
+        border-radius: 20px;
+        width: 76.5%;
+        margin: -12px 49px;
+    }
+    #percent-cr{
+        float: right;
+    }
+
+    #level-pt{
+        background: black;
+        border-top: 5px solid black;
+        border-radius: 20px;
+        width: 66%;
+        margin: -12px 72px;
+    }
+    #percent-pt{
+        float: right;
+    }
+    
+    
+    #level-en{
+        background: black;
+        border-top: 5px solid black;
+        border-radius: 20px;
+        width: 58%;
+        margin: -12px 49px;
+    }
+    #percent-en{
+        float: right;
+    }
+}

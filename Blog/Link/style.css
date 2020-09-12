@@ -1,0 +1,351 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ /* The header part */
+
+#title-header{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    margin: 10px auto;
+}
+
+span{
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(0);
+}
+span.fade{
+    opacity: 1;
+    transform: translateY(50);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    background: black;
+    overflow: auto;
+    padding: 20px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav ul li #active-links,a:hover{
+    opacity: 1;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+/* Beginning of parts of links under nav-bar */
+
+#parts-of-links p{
+    display: inline-block;
+    padding: 3px;
+}
+#links-title{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgb(42, 40, 40);
+    text-align: center;
+    margin: 50px auto;
+}
+
+span.fade_two{
+    opacity: 1;
+    transform: translateY(50);
+}
+
+/* part of YouTube links */
+
+.youtube{
+   font-family: sans-serif; 
+}
+#links-title-youtube{
+    text-align: center;   
+    font-size: 25px;
+    border: 1px dashed black;
+    margin: auto 100px;
+    padding: 1px;
+}
+#second-title{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 20px;
+}
+
+
+
+/*//////////////////////////////////////////////////*/
+
+        /* part of YouTube */
+
+        /* First */
+
+#lg-cev{
+    border-radius: 20px;
+    margin: 10px;
+    width: 18%;
+}
+#legend-of-cev{
+    font-family: sans-serif;
+    float: right;
+    margin: 17px auto;
+}
+
+         /* Second */
+
+#lg-mt{
+    border-radius: 20px;
+    margin: 10px;
+    width: 18%;
+}
+#legend-of-lm{
+    font-family: sans-serif;
+    float: right;
+    margin: 17px 30px 0 0;
+}
+
+        /* Third */
+
+#lg-progbr{
+    border-radius: 20px;
+    margin: 10px;
+    width: 18%;
+}
+#legend-of-progbr{
+    font-family: sans-serif;
+    float: right;
+    margin: 17px 5px 0 0;
+    font-size: 15px;
+}
+
+        /* Forth */
+
+#lg-deved{
+    border-radius: 20px;
+    margin: 10px;
+    width: 18%;
+}
+#legend-of-deved{
+    font-family: sans-serif;
+    float: right;
+    margin: 20px 50px 0 0;
+    font-size: 15px;
+}
+
+
+
+/*//////////////////////////////////////////////////*/
+
+/* part of Sites */
+
+.sites{
+   font-family: sans-serif; 
+}
+#links-title-sites{
+    text-align: center;   
+    font-size: 25px;
+    border: 1px dashed black;
+    margin: 100px  100px 0  100px;
+    padding: 1px;
+}
+#second-title-site{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 20px;
+}
+
+
+        /* First */
+
+#lg-cdp{
+    border-radius: 20px;
+    margin: 10px;
+    width: 18%;
+}
+#legend-of-cdp{
+    font-family: sans-serif;
+    float: right;
+    margin: 25px 30px 0 0 ;
+}
+
+         /* Second */
+
+#lg-stko{
+    border-radius: 20px;
+    margin: 10px;
+    width: 18%;
+}
+#legend-of-stko{
+    font-family: sans-serif;
+    float: right;
+    margin: 17px 30px 0 0;
+}
+
+        /* Third */
+
+#lg-gth{
+    border-radius: 20px;
+    margin: 10px;
+    width: 18%;
+}
+#legend-of-gth{
+    font-family: sans-serif;
+    float: right;
+    margin: 17px 30px 0 0;
+    font-size: 15px;
+}
+
+        /* Forth */
+
+#lg-htg{
+    border-radius: 20px;
+    margin: 20px 10px;
+    width: 18%;
+}
+#legend-of-htg{
+    font-family: sans-serif;
+    float: right;
+    margin: -75px 20px 0 0;
+    font-size: 15px;
+}
+
+
+/*//////////////////////////////////////////////////*/
+
+ /* part of Programs */
+
+.programs{
+    font-family: sans-serif; 
+}
+ #links-title-programs{
+     text-align: center;   
+     font-size: 25px;
+     border: 1px dashed black;
+     margin: 100px  100px 0  100px;
+     padding: 1px;
+}
+ #second-title-programs{
+     text-align: center;
+     margin: 50px auto;
+     font-size: 20px;
+}
+ 
+ 
+         /* First */
+ 
+ #lg-gthd{
+     border-radius: 20px;
+     margin: 10px;
+     width: 18%;
+}
+ #legend-of-gthd{
+     font-family: sans-serif;
+     float: right;
+     margin: 25px 45px 0 0 ;
+}
+ 
+          /* Second */
+ 
+ #lg-git{
+     border-radius: 20px;
+     margin: 10px;
+     width: 18%;
+}
+ #legend-of-git{
+     font-family: sans-serif;
+     float: right;
+     margin: 17px 30px 0 0;
+}
+ 
+         /* Third */
+ 
+ #lg-vscd{
+     border-radius: 20px;
+     margin: 30px 10px;
+     width: 18%;
+}
+#legend-of-vscd{
+     font-family: sans-serif;
+     float: right;
+     margin: 25px 50px 0 0;
+     font-size: 15px;
+}
+
+
+/*//////////////////////////////////////////////////*/
+ 
+
+         /* part of Books */
+
+.books{
+    font-family: sans-serif; 
+}
+ #links-title-books{
+     text-align: center;   
+     font-size: 25px;
+     border: 1px dashed black;
+     margin: 100px  100px 0  100px;
+     padding: 1px;
+}
+ #second-title-books{
+     text-align: center;
+     margin: 50px auto;
+     font-size: 20px;
+}
+
+        /* First */
+
+ #lg-hdf{
+     border-radius: 20px;
+     margin: 10px;
+     width: 18%;
+}
+ #legend-of-hdf{
+     font-family: sans-serif;
+     float: right;
+     margin: 25px 45px 0 0 ;
+}
+ 
+          /* Second */
+ 
+ #lg-tstp{
+     border-radius: 20px;
+     margin: 10px;
+     width: 18%;
+}
+ #legend-of-tstp{
+     font-family: sans-serif;
+     float: right;
+     margin: 17px 40px 0 0;
+}
+ 
+         /* Third */
+ 
+ #lg-trbc{
+     border-radius: 20px;
+     margin: 5px 15px;
+     width: 18%;
+}
+#legend-of-trbc{
+     font-family: sans-serif;
+     float: right;
+     margin:30px 10px 0 0;
+     font-size: 15px;
+}
+
+
+
+ 
+
+
