@@ -29,9 +29,13 @@ let timer = setInterval(onTick,50)
 
 // DOM part demonstration of animation date math password
 
+
+/////////////////////////  Animation  ///////////////////////
+
+
             // HTML
-const htmlCode = document.querySelector('#html-code') 
-htmlCode.innerText = `<!DOCTYPE html>
+const htmlCodeAnimation = document.querySelector('#html-code-animation') 
+htmlCodeAnimation.innerText = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -46,12 +50,12 @@ htmlCode.innerText = `<!DOCTYPE html>
 <script src="script.js"></script>
 </body>
 </html>`
-htmlCode.classList.add('tagsCode')
+htmlCodeAnimation.classList.add('tagsCode')
 
             // CSS
 
-const cssCode = document.querySelector('#css-code')
-cssCode.innerText = `* {
+const cssCodeAnimation = document.querySelector('#css-code-animation')
+cssCodeAnimation.innerText = `* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -71,13 +75,13 @@ span.fade{
     opacity: 1;
     transform: translateY(50);
 }`
-cssCode.classList.add('tagsCode')
+cssCodeAnimation.classList.add('tagsCode')
 
 
             // JavaScript
 
-const jsCode = document.querySelector('#js-code')
-jsCode.innerText = `const text = document.querySelector('#fname')
+const jsCodeAnimation = document.querySelector('#js-code-animation')
+jsCodeAnimation.innerText = `const text = document.querySelector('#fname')
 const srtText = text.textContent
 const splitText = srtText.split("")
 text.textContent = ""
@@ -105,4 +109,68 @@ let timer = setInterval(onTick,50)
         clearInterval(timer)
         timer = null
     }`
-jsCode.classList.add('tagsCode')
+jsCodeAnimation.classList.add('tagsCode')
+
+
+
+/////////////////////////  Date  ///////////////////////
+
+
+
+                     // HTML
+ const htmlCodeDate = document.querySelector('#html-code-date') 
+ htmlCodeDate.innerText = `<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Transition</title>
+ </head>
+ <body>
+     <h1 id="fullTime">
+         
+     </h1>
+ <script src="script.js"></script>
+ </body>
+ </html>`
+ htmlCodeDate.classList.add('tagsCode')
+ 
+             // CSS
+ 
+ const cssCodeDate = document.querySelector('#css-code-date')
+ cssCodeDate.innerText = `* {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ } \n
+ h1 {
+     text-align: center;
+     font-family: sans-serif;
+     font-size: 35px;
+     margin: 12rem;
+ } \n `
+ cssCodeDate.classList.add('tagsCode')
+ 
+ 
+             // JavaScript
+ 
+ const jsCodeDate = document.querySelector('#js-code-date')
+ jsCodeDate.innerText = ` const fullTime = document.getElementById("#fullTime")
+
+ function TimeToday(){
+
+const fullTime = document.getElementById("#fullTime")
+const data = new Date()
+const hours = data.getHours()
+const minutes =  data.getMinutes()
+const seconds = data.getSeconds()
+ 
+ fullTime.innerHTML = "It's" + hours "hours" + minutes + "minutes" + and + seconds + "seconds" 
+
+}
+
+TimeToday()
+setInterval(TimeToday, 1000)
+`
+ jsCodeDate.classList.add('tagsCode')

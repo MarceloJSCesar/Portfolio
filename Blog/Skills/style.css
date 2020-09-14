@@ -103,7 +103,7 @@ nav ul li #active-skills,a:hover{
     margin: 20px  22px;
     font-size: 15px;
 }
-#p-animation-demonstration-html{
+#p-animation-demonstration-transition{
     text-align: center;
 }
 .tag-title-d{
@@ -126,19 +126,6 @@ nav ul li #active-skills,a:hover{
     padding: 0;
 }
 #date-title{
-    margin: 100px auto;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 30px;
-    color: gray;
-    padding: 0;
-}
-
-/* part of math under skills date-time*/
-#math{
-    padding: 0;
-}
-#math-title{
     margin: 100px auto;
     text-align: center;
     font-family: sans-serif;
