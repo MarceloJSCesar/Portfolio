@@ -174,3 +174,7 @@ TimeToday()
 setInterval(TimeToday, 1000)
 `
  jsCodeDate.classList.add('tagsCode')
+
+
+
+ /////////////////////////  Password  ///////////////////////
