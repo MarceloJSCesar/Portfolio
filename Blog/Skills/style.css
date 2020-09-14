@@ -48,7 +48,7 @@ nav ul li #active-skills,a:hover{
 
 /* Part of the tags skills*/
 #tags-skills{
-    font-family: cursive;
+    font-family: sans-serif;
 }
 #tags-skills p {
     display: inline-block;
