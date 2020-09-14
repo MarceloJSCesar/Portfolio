@@ -91,6 +91,7 @@ nav ul li #active-skills,a:hover{
     text-align: center;
     font-size: 30px;
     color: gray;
+    padding: 0;
 }
 #p-animation-one{
     text-align: center;
@@ -126,15 +127,7 @@ nav ul li #active-skills,a:hover{
     font-family: sans-serif;
     font-size: 30px;
     color: gray;
-}
-
-/* part of data-time under skills date*/
-#dateT-title{
-    margin: 100px auto;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 30px;
-    color: gray;
+    padding: 0;
 }
 
 /* part of math under skills date-time*/
@@ -144,14 +137,16 @@ nav ul li #active-skills,a:hover{
     font-family: sans-serif;
     font-size: 30px;
     color: gray;
+    padding: 0;
 }
 
 /* part of time under skills math */
-#time-title{
+#password-title{
     margin: 100px auto;
     text-align: center;
     font-family: sans-serif;
     font-size: 30px;
     color: gray;
+    padding: 0;
 }
 
