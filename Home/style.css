@@ -195,6 +195,7 @@ span.fade{
     background: gray;
     border-radius: 20px;
     padding: 10px;
+    text-align: center;
 }
 
 /* Contact Container under my plan */
@@ -225,7 +226,7 @@ span.fade{
     margin: 10px auto;
 }
 
-@media only screen and (max-width: 375px){
+@media only  screen and (max-width: 375px){
 
         /* Part header*/
     nav ul{
@@ -293,13 +294,12 @@ span.fade{
 
 }
 
-
-@media only screen and (max-width:720px){
+@media only screen and (min-width:720px){
 
     /* Part header*/
 .headers{
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     top: -0px;
     color: white;
@@ -310,49 +310,37 @@ span.fade{
 }
 
 nav ul{
-    list-style: none;
-    margin: auto 160px;
+    margin: 10px 220px;
+    font-size: 20px;
+}
+
+    /* About Container under header*/
+#about-photo{
+    width: 40%;
+    margin: 30px;
+    height: 350px;
+}
+#about-text{
+    border: 1px solid whitesmoke;
+    box-shadow: 5px 5px 10px;
+    border-radius: 20px;
+    padding: 20px;
+    float: right;
+    margin: 80px 50px 0 0 ;
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
     /* Experience container under about */
 
     #experience-note{
-        text-align: center;
         font-size: 18px;
-    }
-
-    /* About Container under header*/
-
-
-    #about-photo{
-        width: 40%;
-        border-radius: 15px;
-        box-shadow: 5px 5px 10px;
-        margin: 25px 30px;
-        height: 400px;
-    }
-    #about-text{
-        float: right;
-        margin: 90px 50px 0 0 ;
-        font-size: 20px;
-        border: 1px solid whitesmoke;
-        box-shadow: 5px 5px 10px rgb(109, 105, 105);
-        padding: 10px;
-        border-radius: 20px;
     }
 
     /* Part of my plan container under languages*/
 
     #myPlan-text-two{
-        font-family: sans-serif;
-        margin: auto 300px;
-    }
-    #myPlan-note{
-        font-family: sans-serif;
         font-size: 18px;
-        background: gray;
-        border-radius: 20px;
-        padding: 10px;
-        text-align: center;
+        margin: auto 300px;
     }
 }
