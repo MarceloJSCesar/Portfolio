@@ -30,12 +30,12 @@ nav ul{
 nav ul li {
     display: inline-block;
 }
-nav ul li a{
+nav ul li .taga{
     color: white;
     text-decoration: none;
     padding: 5px;
 }
-nav ul li #active_home,a:hover{
+nav ul li #active_home,.taga:hover{
     opacity: 1;
     padding: 5px;
     border-bottom: 1px solid white;
@@ -224,6 +224,9 @@ span.fade{
     padding: 15px;
     border-radius: 20px;
     margin: 10px auto;
+}
+#link-github{
+    color: black;
 }
 
 @media only  screen and (max-width: 375px){
