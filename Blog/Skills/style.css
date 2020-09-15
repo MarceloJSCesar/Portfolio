@@ -122,6 +122,13 @@ nav ul li #active-skills,a:hover{
     margin: 20px auto;
 }
 
+.back-all{
+    border: 1px solid white;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgb(153, 150, 150);
+    background: whitesmoke;
+}
+
 /* part of date under skills animations*/
 #date{
     padding: 0;
