@@ -750,7 +750,7 @@ span.fade_two{
 }
 }
 
-@media only screen and (min-width:1120px){
+@media only screen and (min-width:1086px){
     #legend-of-git{
         margin: 130px 270px 0 0;
     }
