@@ -543,12 +543,12 @@ span.fade_two{
  #lg-git{
      border-radius: 20px;
      margin: 10px 0 0 -50px ;
-     width: 50%;
+     width: 40%;
 }
  #legend-of-git{
     font-family: sans-serif;
     float: right;
-    margin: -120px 70px 0 0;
+    margin: 70px 70px 0 0;
     font-size: 20px;
 }
  
