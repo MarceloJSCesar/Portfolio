@@ -357,7 +357,7 @@ nav ul{
 
     /* Experience container under about */
 #level-html{
-    margin: -13px 55px;
+    margin: -13px 65px;
 }
 
 #level-css{
@@ -365,20 +365,20 @@ nav ul{
 }
 
 #level-js{
-    margin: -13px 55px;
+    margin: -13px 50px;
 }
 
     /* language container */
 
 #level-cr{
-    margin: -12px 58px;
+    margin: -12px 65px;
 }
 
 #level-pt{
-    margin: -12px 82px;
+    margin: -12px 90px;
 }
     
 #level-en{
-    margin: -12px 58px;
+    margin: -12px 65px;
 }
 }
