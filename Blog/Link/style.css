@@ -35,12 +35,12 @@ nav ul {
 nav ul li {
     display: inline-block;
 }
-nav ul li a {
+nav ul li .taga {
     text-decoration: none;
     color: white;
     padding: 10px;
 }
-nav ul li #active-links,a:hover{
+nav ul li #active-links,.taga:hover{
     opacity: 1;
     padding: 10px;
     border-bottom: 1px solid white;
@@ -349,3 +349,410 @@ span.fade_two{
 
 
 
+@media only screen and (min-width:720px){
+
+     /* part of YouTube */
+
+        /* First */
+#youtube-channels{
+    background: rgb(202, 194, 194);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+#lg-cev{
+    border-radius: 20px;
+    margin: 10px;
+    width: 30%;
+}
+#legend-of-cev{
+    font-family: sans-serif;
+    float: right;
+    margin: 50px 30px 0 0;
+    font-size: 20px;
+}
+
+         /* Second */
+
+#lg-mt{
+    border-radius: 20px;
+    margin: 10px;
+    width: 30%;
+}
+#legend-of-lm{
+    font-family: sans-serif;
+    float: right;
+    margin: 50px 50px 0 0;
+    font-size: 20px;
+}
+
+        /* Third */
+
+#lg-progbr{
+    border-radius: 20px;
+    margin: 10px;
+    width: 30%;
+}
+#legend-of-progbr{
+    font-family: sans-serif;
+    float: right;
+    margin: 50px 10px 0 0;
+    font-size: 20px;
+}
+
+        /* Forth */
+
+#lg-deved{
+    border-radius: 20px;
+    margin: 10px;
+    width: 30%;
+}
+#legend-of-deved{
+    font-family: sans-serif;
+    float: right;
+    margin: 80px 60px 0 0;
+    font-size: 20px;
+}
+
+
+
+/*//////////////////////////////////////////////////*/
+
+/* part of Sites */
+
+#sites{
+    background: rgb(202, 194, 194);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#links-title-sites{
+    text-align: center;   
+    font-size: 25px;
+    border: 1px dashed black;
+    margin: 100px  100px 0  100px;
+    padding: 1px;
+}
+#second-title-site{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 20px;
+}
+
+
+        /* First */
+
+#lg-cdp{
+    border-radius: 20px;
+    margin: 10px;
+    width: 30%;
+}
+#legend-of-cdp{
+    font-family: sans-serif;
+    float: right;
+    margin: 80px 60px 0 0;
+    font-size: 20px;
+}
+
+         /* Second */
+
+#lg-stko{
+    border-radius: 20px;
+    margin: 10px;
+    width: 30%;
+}
+#legend-of-stko{
+    font-family: sans-serif;
+    float: right;
+    margin: 80px 50px 0 0;
+    font-size: 20px;
+}
+
+        /* Third */
+
+#lg-gth{
+    border-radius: 20px;
+    margin: 10px;
+    width: 30%;
+    height: 150px;
+}
+#legend-of-gth{
+    font-family: sans-serif;
+    float: right;
+    margin: 60px 50px 0 0;
+    font-size: 20px;
+}
+
+        /* Forth */
+
+#lg-htg{
+    border-radius: 20px;
+    margin: 20px 10px;
+    width: 30%;
+}
+#legend-of-htg{
+    font-family: sans-serif;
+    float: right;
+    margin: 80px 40px 0 0;
+    font-size: 20px;
+}
+
+
+/*//////////////////////////////////////////////////*/
+
+ /* part of Programs */
+
+#programs{
+    background: rgb(202, 194, 194);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+ #links-title-programs{
+     text-align: center;   
+     font-size: 25px;
+     border: 1px dashed black;
+     margin: 100px  100px 0  100px;
+     padding: 1px;
+}
+ #second-title-programs{
+     text-align: center;
+     margin: 50px auto;
+     font-size: 20px;
+}
+ 
+ 
+         /* First */
+ 
+ #lg-gthd{
+     border-radius: 20px;
+     margin: 10px;
+     width: 30%;
+}
+ #legend-of-gthd{
+    font-family: sans-serif;
+    float: right;
+    margin: 70px 70px 0 0;
+    font-size: 20px;
+}
+
+ 
+          /* Second */
+ 
+ #lg-git{
+     border-radius: 20px;
+     margin: 10px 0 0 -50px ;
+     width: 50%;
+}
+ #legend-of-git{
+    font-family: sans-serif;
+    float: right;
+    margin: 90px 70px 0 0;
+    font-size: 20px;
+}
+ 
+         /* Third */
+ 
+ #lg-vscd{
+     border-radius: 20px;
+     margin: 30px 10px;
+     width: 30%;
+}
+#legend-of-vscd{
+    font-family: sans-serif;
+    float: right;
+    margin: 50px 70px 0 0;
+    font-size: 20px;
+}
+
+
+/*//////////////////////////////////////////////////*/
+ 
+
+         /* part of Books */
+
+#books{
+    font-family: sans-serif;
+    background: rgb(202, 194, 194);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px; 
+}
+ #links-title-books{
+     text-align: center;   
+     font-size: 25px;
+     border: 1px dashed black;
+     margin: 100px  100px 0  100px;
+     padding: 1px;
+}
+ #second-title-books{
+     text-align: center;
+     margin: 50px auto;
+     font-size: 20px;
+}
+
+        /* First */
+
+ #lg-hdf{
+     border-radius: 20px;
+     margin: 10px;
+     width: 30%;
+}
+ #legend-of-hdf{
+    font-family: sans-serif;
+    float: right;
+    margin: 80px 100px 0 0;
+    font-size: 20px;;
+}
+ 
+          /* Second */
+ 
+ #lg-tstp{
+     border-radius: 20px;
+     margin: 10px;
+     width: 30%;
+}
+ #legend-of-tstp{
+    font-family: sans-serif;
+    float: right;
+    margin: 100px 100px 0 0;
+    font-size: 20px;
+}
+ 
+         /* Third */
+ 
+ #lg-trbc{
+     border-radius: 20px;
+     margin: 5px 15px;
+     width: 30%;
+}
+#legend-of-trbc{
+    font-family: sans-serif;
+    float: right;
+    margin: 100px 40px 0 0;
+    font-size: 20px;
+}
+
+}
+
+@media only screen and (min-width:1020px){
+
+    /* part of YouTube */
+
+            /* First */
+        
+#legend-of-cev{
+    margin: 50px 220px 0 0;
+}          
+
+         /* Second */
+
+
+#legend-of-lm{
+    margin: 50px 250px 0 0;
+}
+
+        /* Third */
+
+#legend-of-progbr{
+    margin: 50px 210px 0 0;
+}
+
+        /* Forth */
+
+#legend-of-deved{
+    margin: 80px 270px 0 0;
+}
+
+
+
+/*//////////////////////////////////////////////////*/
+
+/* part of Sites */
+
+
+        /* First */
+
+#legend-of-cdp{
+    margin: 80px 260px 0 0;
+}
+
+         /* Second */
+
+#legend-of-stko{
+    margin: 80px 250px 0 0;
+}
+
+        /* Third */
+
+#lg-gth{
+    height: 200px;
+}
+#legend-of-gth{
+    margin: 60px 240px 0 0;
+}
+
+        /* Forth */
+
+#legend-of-htg{
+    margin: 80px 230px 0 0;
+}
+
+
+/*//////////////////////////////////////////////////*/
+
+ /* part of Programs */
+
+         /* First */
+ 
+ #legend-of-gthd{
+    margin: 70px 270px 0 0;
+}
+
+ 
+          /* Second */
+ 
+ #lg-git{
+     margin: 10px 0 0 -80px ;
+}
+ #legend-of-git{
+    margin: -160px 270px 0 0;
+}
+ 
+         /* Third */
+ 
+#legend-of-vscd{
+    margin: 50px 270px 0 0;
+}
+
+
+/*//////////////////////////////////////////////////*/
+ 
+
+         /* part of Books */
+
+        /* First */
+
+ #legend-of-hdf{
+    margin: 80px 250px 0 0;
+}
+ 
+          /* Second */
+ 
+ #legend-of-tstp{
+    margin: 100px 250px 0 0;
+}
+ 
+         /* Third */
+#legend-of-trbc{
+    margin: 100px 200px 0 0;
+}
+}
+
+@media only screen and (min-width:1120px){
+    #legend-of-git{
+        margin: 130px 270px 0 0;
+    }
+     
+}
