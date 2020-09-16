@@ -354,4 +354,31 @@ nav ul{
         font-size: 18px;
         margin: auto 300px;
     }
+
+    /* Experience container under about */
+#level-html{
+    margin: -13px 55px;
+}
+
+#level-css{
+    margin: -13px 55px;
+}
+
+#level-js{
+    margin: -13px 55px;
+}
+
+    /* language container */
+
+#level-cr{
+    margin: -12px 58px;
+}
+
+#level-pt{
+    margin: -12px 82px;
+}
+    
+#level-en{
+    margin: -12px 58px;
+}
 }
