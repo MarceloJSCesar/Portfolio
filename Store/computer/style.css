@@ -55,12 +55,10 @@ span.fade{
 /* Part of names items of products */
 .items-title-nav{
     text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin: auto 10px;
 }
 .items-title-nav p {
     padding: 2px;
+    display: inline-block;
 }
 
 /* Part of phones container */
