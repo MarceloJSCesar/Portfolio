@@ -53,6 +53,12 @@ span.fade{
 }
 
 /* Part of names items of products */
+#amazon-title{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
 .items-title-nav{
     text-align: center;
 }
