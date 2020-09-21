@@ -3,48 +3,57 @@
     padding: 0;
     margin: 0;
 }
-#backg{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    border-radius: 0 0 40px 40px;
-}
 
 /* Part header*/
 .headers{
     font-family: sans-serif;
     font-size: 16px;
-    position: absolute;
     top: -0px;
     color: white;
 }
 
 #nameH{
-    margin: 10px 5px;
+    margin: 20px;
+    font-size: 18px;
 }
 
 nav ul{
+    text-align: center;
     list-style: none;
-    margin: 10px 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    background: rgb(165, 162, 162);
+    border-radius: 0 0 0 20px;
+    padding: 30px;
+    overflow: auto;
 }
 nav ul li {
     display: inline-block;
+    padding: 5px;
 }
-nav ul li .taga{
-    color: white;
+nav ul li a {
+    color: black;
     text-decoration: none;
-    padding: 5px;
 }
-nav ul li #active_store,.taga:hover{
-    opacity: 1;
-    padding: 5px;
-    border-bottom: 1px solid white;
-}
-
 span{
     opacity: 0;
     transition: all 1s ease;
     transform: translateY(0);
+}
+#title-nav{
+    font-size: 20px;
+}
+#txt-nv-am{
+    background: rgb(211, 209, 209);
+    padding: 5px;
+    border-radius: 0 0 0 10px;
+    opacity: 0.6;
+}
+#txt-nv-al{
+    background: rgb(211, 209, 209);
+    padding: 5px;
+    border-radius: 0 0 0 10px;
+    opacity: 1;
 }
 span.fade{
     opacity: 1;
@@ -57,6 +66,7 @@ span.fade{
     font-family: sans-serif;
     font-size: 20px;
     text-align: center;
+    margin: 10px auto;
 }
 
 .items-title-nav{
@@ -81,6 +91,9 @@ span.fade{
 }
 
     /* Begin of items */
+    figcaption{
+        margin: 0 65px;
+    }
 #one-item{
     margin: 40px;
 }
