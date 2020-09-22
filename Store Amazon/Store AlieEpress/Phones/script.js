@@ -1,5 +1,5 @@
 
-alert('WebSite in Building ')
+// alert('WebSite in Building ')
 
 const text = document.querySelector('#nameH')
 const srtText = text.textContent
