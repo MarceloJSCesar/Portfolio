@@ -1,3 +1,6 @@
+
+alert(`The AliExpress'part is in building`)
+
 const text = document.querySelector('#nameH')
 const srtText = text.textContent
 const splitText = srtText.split("")
