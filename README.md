@@ -6,4 +6,4 @@
 *I'm here for anyone needs help or want to help too , maybe some tips to improve my Portfolio*
 
 
-__I like work in team , learn with each other and increase our knowledge each more time__
+__I like to work as a team, learn from each other and increase our knowledge more and more, we will make a big  difference__
