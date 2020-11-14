@@ -155,3 +155,8 @@ nav ul li #active-skills,a:hover{
     padding: 0;
 }
 
+@media only screen and (max-width:343px){
+    nav ul{
+        font-size: 15px;
+    }
+}

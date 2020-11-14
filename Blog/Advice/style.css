@@ -95,3 +95,9 @@ nav ul li #active-skills,a:hover{
     border-radius: 20px;
     padding: 5pt;
 }
+
+@media only screen and (max-width:343px){
+    nav ul{
+        font-size: 15px;
+    }
+}

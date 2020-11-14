@@ -345,10 +345,6 @@ span.fade_two{
 }
 
 
-
-
-
-
 @media only screen and (min-width:720px){
 
      /* part of YouTube */
@@ -755,4 +751,10 @@ span.fade_two{
         margin: 130px 270px 0 0;
     }
      
+}
+
+@media only screen and (max-width:343px){
+    nav ul{
+        font-size: 15px;
+    }
 }
