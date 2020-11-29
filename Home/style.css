@@ -114,6 +114,26 @@ span.fade{
 #percent-js{
     float: right;
 }
+#level-dart{
+    background: black;
+    border-top: 5px solid black;
+    border-radius: 20px;
+    width: 43%;
+    margin: -13px 45px;
+}
+#percent-dart{
+    float: right;
+}
+#level-flutter{
+    background: black;
+    border-top: 5px solid black;
+    border-radius: 20px;
+    width: 60%;
+    margin: -13px 45px;
+}
+#percent-flutter{
+    float: right;
+}
 
 #experience-note{
     text-align: center;
@@ -170,6 +190,11 @@ span.fade{
 }
 
 /* Part of my plan container under languages*/
+.myPlan-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 #myPlan-title{
     font-family: sans-serif;
     font-size: 30px;
