@@ -28,10 +28,13 @@ nav ul {
     text-align: center;
     font-family: sans-serif;
     font-size: 18px;
-    background: black;
+    background: rgb(49, 48, 48);
     overflow: auto;
-    padding: 20px;
+    padding: 20px 30px 20px 30px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px 10px;
 }
+
 nav ul li {
     display: inline-block;
 }
